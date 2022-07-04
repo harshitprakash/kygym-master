@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/dmq8yc0rsxnm/public_html/Data/GDIapp/
+    - /bin/cp * $DEPLOYPATH
