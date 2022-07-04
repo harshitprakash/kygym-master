@@ -1,74 +1,90 @@
-<footer class="footer-section">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="map-location">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d33245.297803635964!2d-73.76987401620775!3d40.704774398815005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1575866843291!5m2!1sen!2sbd" style="border:0;" allowfullscreen=""></iframe>
-                    <div class="map-widget">
-                        <i class="fa fa-map-marker"></i>
-                        <div class="map-address">
-                            <img src="{{asset('assets/img/map-location.jpg')}}" alt="">
-                            <ul class="map-text">
-                                <li><span>Address:</span> Iris Watson, Box 283, NY</li>
-                                <li><span>Phone:</span> 12-456-791</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+<!-- Footer -->
+<!-- Footer -->
+<footer class="page-footer font-small " style="background-color: #fde8e9;">
+    <!-- Footer Links -->
+    <div class="container">
+        <!-- Grid row-->
+        <div class="row text-center d-flex justify-content-center pt-5 mb-3">
+            <!-- Grid column -->
+            <div class="col-md-2 mb-3">
+                <h6 class="text-uppercase font-weight-bold">
+                    <a href="#!" style="color: #ec3642;">Home</a>
+                </h6>
             </div>
-            <div class="col-lg-6">
-                <div class="footer-form set-bg" data-setbg="{{asset('assets/img/contact-form-bg.jpg')}}">
-                    <div class="row">
-                        <div class="col-lg-10">
-                            <div class="section-title">
-                                <h2>Request A Call Back</h2>
-                                <p>Shape your body and burn fat with strength training. With the right equipment
-                                    such as free weights or resistance machines.</p>
-                            </div>
-                            <form action="#">
-                                <div class="row">
-                                    <div class="col-lg-6">
-                                        <input type="text" placeholder="Name">
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <input type="text" placeholder="Email">
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <input type="text" placeholder="Subject">
-                                        <textarea placeholder="Message"></textarea>
-                                        <button type="submit">Submit <i class="ti-angle-double-right"></i></button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
+            <!-- Grid column -->
+            <!-- Grid column -->
+            <div class="col-md-2 mb-3">
+                <h6 class="text-uppercase font-weight-bold">
+                    <a href="#!" style="color: #ec3642;">About us</a>
+                </h6>
             </div>
+            <!-- Grid column -->
+            <!-- Grid column -->
+            <div class="col-md-2 mb-3">
+                <h6 class="text-uppercase font-weight-bold">
+                    <a href="#!" style="color: #ec3642;">Classes & Services</a>
+                </h6>
+            </div>
+            <!-- Grid column -->
+            <!-- Grid column -->
+            <div class="col-md-2 mb-3">
+                <h6 class="text-uppercase font-weight-bold">
+                    <a href="#!" style="color: #ec3642;">Contact</a>
+                </h6>
+            </div>
+            <!-- Grid column -->
+            <!-- Grid column -->
+            <div class="col-md-2 mb-3">
+                <h6 class="text-uppercase font-weight-bold">
+                    <a href="#!" style="color: #ec3642;">Log-in</a>
+                </h6>
+            </div>
+            <!-- Grid column -->
         </div>
-    </div>
-    <div class="register">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="copyright">
-                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                    </div>
-                    <div class="footer-widget">
-                        <ul>
-                            <li>Privacy Policy</li>
-                            <li>Terms Of Service</li>
-                            <li>Careers</li>
-                        </ul>
-                    </div>
-                    <div class="footer-links">
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                        <a href="#"><i class="fa fa-instagram"></i></a>
+        <!-- Grid row-->
+        <hr class="rgba-white-light" style="margin: 0 15%;">
+        <!-- Grid row-->
+        <div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
+            <!-- Grid column -->
+            <div class="col-md-8 col-12 mt-5">
+                <p style="line-height: 1rem">Come and join BodyFitness Gym , grind yourself shred fat into muscles and get your dream physique what are you waiting for?
+                    remember:</p>
+                <p style="line-height: 1rem">"Your body can stand almost anything. It’s your mind that you have to convince"</p>
+            </div>
+            <!-- Grid column -->
+        </div>
+        <!-- Grid row--> <br>
+        <hr class="clearfix d-md-none rgba-white-light" style="margin: 10% 15% 5%;">
+        <!-- Grid row-->
+        <center>
+            <div class="row pb-3">
+                <!-- Grid column -->
+                <div class="col-md-12">
+                    <div class="mb-5 flex-center">
+                        <!-- Facebook -->
+                        <a class="fb-ic">
+                            <i class="fab fa-facebook-square fa-lg white-text mr-4"> </i>
+                        </a>
+                        <!-- Twitter -->
+                        <a class="tw-ic">
+                            <i class="fab fa-twitter fa-lg white-text mr-4"> </i>
+                        </a>
+                        <!--Instagram-->
+                        <a class="ins-ic">
+                            <i class="fab fa-instagram fa-lg white-text mr-4"> </i>
+                        </a>
                     </div>
                 </div>
+                <!-- Grid column -->
             </div>
-        </div>
+        </center>
+        <!-- Grid row-->
     </div>
+    <!-- Footer Links -->
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3" style="background-color: #ec3642;"> &copy;<script>document.write(new Date().getFullYear());</script> Copyright:
+        <a href="http://bodyfitness.kygym.in/" style="color: white;"> BodyFitness Gym</a>
+    </div>
+    <!-- Copyright -->
 </footer>
+<!-- Footer -->

@@ -1,180 +1,141 @@
 @extends('layouts.websites')
 @section('content')
 
-    <!-- Site Breadcrumb Begin -->
-    <section class="breadcrumb-section set-bg" data-setbg="{{asset('assets/img/about-breadcrumb-bg.jpg')}}">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="site-text">
-                        <h2>About Us</h2>
-                        <div class="site-breadcrumb">
-                            <a href="./home.html" class="sb-item">Home</a>
-                            <span class="sb-item">About</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Site Breadcrumb End -->
-
-    <!-- About Us Secion Begin -->
-    <section class="about-us-section spad">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5">
-                    <div class="about-pic">
-                        <img src="{{asset('assets/img/about-us.jpg')}}" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-6 offset-lg-1">
-                    <div class="about-text">
-                        <div class="section-title">
-                            <h2>Wellcome to KYGYM</h2>
-                            <p>Our dedicated KyGym areas and fitness experts can help you discover new training
-                                techniques and exercises that offer a dynamic and efficient full-body workout.</p>
-                        </div>
-                        <p>Our fitness experts can help you discover new training techniques. Lorem ipsum dolor sit
-                            amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-                            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                            sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- About Us Secion End -->
-
-    <!-- Why Chose Us Section Begin -->
-    <section class="choseus-section set-bg spad" data-setbg="{{asset('assets/img/chose-us-bg.jpg')}}">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title">
-                        <h2>Why Choose Us</h2>
-                        <p>Our fitness experts can help you discover new training techniques.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="chose-items">
+    <div class="home">
+        <div class="background_image" style="background-image:url(/assets/images/about_page.jpg)"></div>
+        <div class="overlay"></div>
+        <div class="home_container">
+            <div class="container">
                 <div class="row">
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="ci-item">
-                            <i class="ti-crown"></i>
-                            <h5>How do I become an author?</h5>
-                            <p>Event Calendar and Event Calendar Pro full support out of the box.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="ci-item">
-                            <i class="ti-package"></i>
-                            <h5>Is my license transferable?</h5>
-                            <p>Event Calendar and Event Calendar Pro full support out of the box.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="ci-item">
-                            <i class="ti-shopping-cart"></i>
-                            <h5>What do you mean by item?</h5>
-                            <p>Event Calendar and Event Calendar Pro full support out of the box.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="ci-item">
-                            <i class="ti-user"></i>
-                            <h5>Top notch customer support</h5>
-                            <p>Event Calendar and Event Calendar Pro full support out of the box.</p>
+                    <div class="col">
+                        <div class="home_content">
+                            <div class="home_title">About us</div>
+                            <div class="home_subtitle">Pilates, Yoga, Fitness, Spinning & many more</div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- Why Chose Us Section End -->
-
-    <!-- About Page Trainer Section Begin -->
-    <section class="about-page-trainer spad">
+    </div>
+    <!-- About -->
+    <div class="about">
+        <div class="container about_container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="about_content">
+                        <div class="section_title_container">
+                            <div class="section_subtitle">welcome to BodyFitness Gym</div>
+                            <div class="section_title">About <span style="font-size: 60px;">BodyFitness Gym</span></div>
+                        </div>
+                        <div class="text_highlight">Etiam commodo justo nec aliquam feugiat. Donec a leo eget eget augue porttitor sollicitudin augue porttitor sollicitudin.</div>
+                        <div class="about_text">
+                            <p>Morbi sed varius risus, vitae molestie lectus. Donec id hendrerit velit, eu fringilla neque. Etiam id finibus sapien. Donec sollicitudin luctus ex non pharetra. Aenean lobortis ut leo vel porta. Maecenas ac vestibulum lectus. Cras nulla urna, lacinia ut tempor facilisis, congue dignissim tellus. Maecenas ac vestibulum lectus. Cras nulla urna, lacinia ut tempor facilisis, congue dignissim tellus. Phasellus sit amet justo ullamcorper, elementum ipsum nec.</p>
+                        </div>
+                        <div class="button about_button" style="background-color: #ec3642;"><a href="#">Join Now</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about_background">
+            <div class="about_image"><img src="{{asset('assets/images/a2.png')}}" alt=""></div>
+        </div>
+    </div>
+    <!-- Team -->
+    <div class="team">
+        <div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="{{asset('assets/images/blog.jpg')}}" data-speed="0.8"></div>
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <div class="col-lg-12">
-                        <div class="section-title">
-                            <h2>Our Trainer</h2>
-                            <p>Our fitness experts can help you discover new training techniques.</p>
-                        </div>
+                <div class="col-lg-6">
+                    <div class="section_title_container">
+                        <div class="section_subtitle"  style="color: black;">welcome to sportfit</div>
+                        <div class="section_title"  style="color: #ec3642;">The Team</div>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single-trainer-item">
-                        <div class="trainer-pic">
-                            <img src="{{asset('assets/img/trainer/trainer-1.jpg')}}" alt="">
-                        </div>
-                        <div class="trainer-text">
-                            <h5>Noah Leonard</h5>
-                            <span>Gymer</span>
-                            <div class="trainer-social">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-instagram"></i></a>
-                            </div>
+            <div class="row team_row">
+
+                <!-- Team Member -->
+                <div class="col-lg-4 team_col">
+                    <div class="team_item">
+                        <div class="team_image"><img src="{{asset('assets/images/team_1.jpg')}}" alt=""></div>
+                        <div class="team_panel d-flex flex-column align-items-center justify-content-center text-center">
+                            <div class="team_name"><a href="#">Michael Smith</a></div>
+                            <div class="team_title">personal trainer</div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single-trainer-item">
-                        <div class="trainer-pic">
-                            <img src="{{asset('assets/img/trainer/trainer-2.jpg')}}" alt="">
-                        </div>
-                        <div class="trainer-text">
-                            <h5>Noah Leonard</h5>
-                            <span>Gymer</span>
-                            <div class="trainer-social">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-instagram"></i></a>
-                            </div>
+                <!-- Team Member -->
+                <div class="col-lg-4 team_col">
+                    <div class="team_item">
+                        <div class="team_image"><img src="{{asset('assets/images/team_2.jpg')}}" alt=""></div>
+                        <div class="team_panel d-flex flex-column align-items-center justify-content-center text-center">
+                            <div class="team_name"><a href="#">Simone Parker</a></div>
+                            <div class="team_title">personal trainer</div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single-trainer-item">
-                        <div class="trainer-pic">
-                            <img src="{{asset('assets/img/trainer/trainer-3.jpg')}}" alt="">
-                        </div>
-                        <div class="trainer-text">
-                            <h5>Noah Leonard</h5>
-                            <span>Gymer</span>
-                            <div class="trainer-social">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single-trainer-item">
-                        <div class="trainer-pic">
-                            <img src="{{asset('assets/img/trainer/trainer-4.jpg')}}" alt="">
-                        </div>
-                        <div class="trainer-text">
-                            <h5>Noah Leonard</h5>
-                            <span>Gymer</span>
-                            <div class="trainer-social">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-instagram"></i></a>
-                            </div>
+                <!-- Team Member -->
+                <div class="col-lg-4 team_col">
+                    <div class="team_item">
+                        <div class="team_image"><img src="{{asset('assets/images/team_3.jpg')}}" alt=""></div>
+                        <div class="team_panel d-flex flex-column align-items-center justify-content-center text-center">
+                            <div class="team_name"><a href="#">William James</a></div>
+                            <div class="team_title">personal trainer</div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+    <!-- Skills -->
+    <div class="skills">
+        <div class="container">
+            <div class="row row-lg-eq-height">
+
+                <!-- Extra -->
+                <div class="col-lg-6">
+                    <div class="extra d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="background_image" style="background-image:url(images/extra.png)"></div>
+                        <div class="extra_title">15% Discount</div>
+                        <div class="extra_text">
+                            <p>Morbi sed varius risus, vitae molestie lectus. Donec id hendrerit velit, eu fringilla neque. Etiam id finibus sapien. Donec sollicitudin luctus ex non pharetra.llus.</p>
+                        </div>
+                        <div class="button extra_button"><a href="#">Join Now</a></div>
+                    </div>
+                </div>
+                <!-- Skills -->
+                <div class="col-lg-6 skills_col">
+                    <div class="skills_content">
+                        <div class="section_title_container">
+                            <div class="section_subtitle">welcome to sportfit</div>
+                            <div class="section_title">We love sport</div>
+                        </div>
+                        <div class="skills_text">
+                            <p>Morbi sed varius risus, vitae molestie lectus. Donec id hendrerit velit, eu fringilla neque. Etiam id finibus sapien. Donec sollicitudin luctus ex non pharetra. Aenean lobortis ut leo vel porta. Maecenas ac vestibulum lectus. Cras nulla urna, lacinia ut tempor facilisis, congue dignissim tellus. Maecenas ac vestibulum lectus. Cras nulla urna, lacinia ut tempor facilisis, congue dignissim tellus. Phasellus sit amet justo ullamcorper, elementum ipsum nec, vulputate neque.</p>
+                        </div>
+                        <!-- Progress Bars -->
+                        <ul class="progress_bar_container col_12 clearfix">
+                            <li class="pb_item">
+                                <div id="skill_1_pbar" class="skill_bars" data-perc="1.00" data-name="skill_1_pbar"></div>
+                                <h5>Fitness</h5>
+                            </li>
+                            <li class="pb_item">
+                                <div id="skill_2_pbar" class="skill_bars" data-perc="0.70" data-name="skill_2_pbar"></div>
+                                <h5>Pilates</h5>
+                            </li>
+                            <li class="pb_item">
+                                <div id="skill_3_pbar" class="skill_bars" data-perc="0.85" data-name="skill_3_pbar"></div>
+                                <h5>Yoga</h5>
+                            </li>
+                            <li class="pb_item">
+                                <div id="skill_4_pbar" class="skill_bars" data-perc="0.95" data-name="skill_4_pbar"></div>
+                                <h5>Aerobics</h5>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 @endsection

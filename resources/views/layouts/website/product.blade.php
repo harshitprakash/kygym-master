@@ -1,156 +1,32 @@
 @extends('layouts.websites')
 @section("content")
-    <!-- Site Breadcrumb Begin -->
-    <section class="breadcrumb-section set-bg" data-setbg="{{asset('assets/img/about-breadcrumb-bg.jpg')}}">
-        <div class="container">
+    <div class="jumbotron" style="background-color: transparent;">
+        <center>
             <div class="row">
-                <div class="col-lg-12">
-                    <div class="site-text">
-                        <h2>Product</h2>
-                        <div class="site-breadcrumb">
-                            <a href="./home.html" class="sb-item">Home</a>
-                            <span class="sb-item">Product</span>
+                <div class="col-sm">
+
+                    <div class="card" style="margin-top:5px;background-color: #fafafa;border: 0px;">
+                        <img src="{{asset('assets/images/product.png')}}" class="card-img-top" alt="..." height="100%" style="background-color: #f0f0f0;">
+                        <div class="card-body">
+                            <h5 class="card-title text-left">Whey Protein</h5>
+                            <p></p>
+                            <p class="card-text text-left" style="color: #bfbfbf;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <hr>
+                            <h5 style="color: #ec3642;"><strike>Rs. 7286</strike> Rs. 7286</h5>
                         </div>
                     </div>
+
+                </div>
+                <div class="col-sm">
+
+                </div>
+                <div class="col-sm">
+
+                </div>
+                <div class="col-sm">
+
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- Site Breadcrumb End -->
-
-    <!-- Gallery Section Begin -->
-    <section class="gallery-section spad">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <div class="filter-controls">
-                        <ul>
-                            <li class="active" data-filter=".all">All Gallery</li>
-                            <li data-filter=".fitness">Fitness</li>
-                            <li data-filter=".coaching">Coaching</li>
-                            <li data-filter=".event">Event</li>
-                            <li data-filter=".other">Other</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="">
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="card">
-                            <div class="card-header">
-                                <img src="{{asset('assets/img/products/dumbles.png')}}" alt="Denim Jeans" style="width:100%">
-                            </div>
-                            <div class="card-body text-center">
-                                <h4>Tailored Jeans</h4>
-                                <p class="price">$19.99</p>
-                                <p>Some text about the jeans..</p>
-                                <p><button>Add to Cart</button></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="card">
-                            <div class="card-header">
-                                <img src="{{asset('assets/img/products/dumbles.png')}}" alt="Denim Jeans" style="width:100%">
-                            </div>
-                            <div class="card-body text-center">
-                                <h4>Tailored Jeans</h4>
-                                <p class="price">$19.99</p>
-                                <p>Some text about the jeans..</p>
-                                <p><button>Add to Cart</button></p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3">
-                        <div class="card">
-                            <div class="card-header">
-                                <img src="{{asset('assets/img/products/dumbles.png')}}" alt="Denim Jeans" style="width:100%">
-                            </div>
-                            <div class="card-body text-center">
-                                <h4>Tailored Jeans</h4>
-                                <p class="price">$19.99</p>
-                                <p>Some text about the jeans..</p>
-                                <p><button>Add to Cart</button></p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3">
-                        <div class="card">
-                            <div class="card-header">
-                                <img src="{{asset('assets/img/products/dumbles.png')}}" alt="Denim Jeans" style="width:100%">
-                            </div>
-                            <div class="card-body text-center">
-                                <h4>Tailored Jeans</h4>
-                                <p class="price">$19.99</p>
-                                <p>Some text about the jeans..</p>
-                                <p><button>Add to Cart</button></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="card">
-                            <div class="card-header">
-                                <img src="{{asset('assets/img/products/dumbles.png')}}" alt="Denim Jeans" style="width:100%">
-                            </div>
-                            <div class="card-body text-center">
-                                <h4>Tailored Jeans</h4>
-                                <p class="price">$19.99</p>
-                                <p>Some text about the jeans..</p>
-                                <p><button>Add to Cart</button></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="card">
-                            <div class="card-header">
-                                <img src="{{asset('assets/img/products/dumbles.png')}}" alt="Denim Jeans" style="width:100%">
-                            </div>
-                            <div class="card-body text-center">
-                                <h4>Tailored Jeans</h4>
-                                <p class="price">$19.99</p>
-                                <p>Some text about the jeans..</p>
-                                <p><button>Add to Cart</button></p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3">
-                        <div class="card">
-                            <div class="card-header">
-                                <img src="{{asset('assets/img/products/dumbles.png')}}" alt="Denim Jeans" style="width:100%">
-                            </div>
-                            <div class="card-body text-center">
-                                <h4>Tailored Jeans</h4>
-                                <p class="price">$19.99</p>
-                                <p>Some text about the jeans..</p>
-                                <p><button>Add to Cart</button></p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3">
-                        <div class="card">
-                            <div class="card-header">
-                                <img src="{{asset('assets/img/products/dumbles.png')}}" alt="Denim Jeans" style="width:100%">
-                            </div>
-                            <div class="card-body text-center">
-                                <h4>Tailored Jeans</h4>
-                                <p class="price">$19.99</p>
-                                <p>Some text about the jeans..</p>
-                                <p><button>Add to Cart</button></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Gallery Section End -->
+        </center>
+    </div>
 @endsection

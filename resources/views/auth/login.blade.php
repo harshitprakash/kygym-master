@@ -22,7 +22,7 @@
                         <div class="col-xl-12">
                             <div class="auth-form">
                                 <div class="text-center mb-3">
-                                    <a href="{{ route('web.home') }}"><img src="{{ asset('images/logo.png') }}" alt="BodyFitnessGYM" height="70px" width="auto"></a>
+                                    <a href="{{ route('home') }}"><img src="{{ asset('images/logo.png') }}" alt="BodyFitnessGYM" height="70px" width="auto"></a>
                                 </div>
                                 <h3 class="text-center mb-4 text-white">Body Fitness Gym</h3>
                                 <h4 class="text-center mb-4 text-white">Login your account</h4>

@@ -116,13 +116,11 @@ Auth::routes();
 
 //Routes for Static Website!...
 
-Route::get('/', function () {return view('layouts.website.template');})->name('home');
+Route::get('/', function () {return view('layouts.website.home');})->name('home');
 Route::get('stars', function () {return view('layouts.website.template');})->name('web.stars');
 Route::get('layouts/website/aboutus', function () {return view('layouts.website.aboutus');})->name('aboutus');
-Route::get('layouts/website/schedule', function () {return view('layouts.website.schedule');})->name('schedule');
 Route::get('layouts/website/product', function () {return view('layouts.website.product');})->name('product');
-Route::get('layouts/website/portfolio', function () {return view('layouts.website.portfolio');})->name('portfolio');
-Route::get('contact', function () {return view('layouts.website.template');})->name('web.contact');
+Route::get('layout/website/contact', function () {return view('layouts.website.contact');})->name('contact');
 Route::get('reset/server/migrate/database', function () {\Illuminate\Support\Facades\Artisan::call('migrate:fresh --seed');return redirect()->route('web.home')->with('success', 'Migrated Successfully');});
 
 //Routes for Static Websites! End........!
